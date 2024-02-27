@@ -1,0 +1,130 @@
+.bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #cffcf1, #defafe);
+  padding: 40px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 36px;
+  margin-bottom: 95px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+}
+
+.digital-timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 450px;
+  height: 320px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.timer-status-container {
+  background-color: #ffffff;
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+  border-radius: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #00d9f5;
+  font-weight: bold;
+  margin-bottom: 0%;
+  margin-top: -1px;
+}
+
+.status {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #0f172a;
+  margin-top: 0%;
+  font-weight: bold;
+}
+
+.timer-buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.start-reset-container {
+  display: flex;
+}
+
+.button {
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.button-image {
+  height: 35px;
+  width: 35px;
+}
+
+.button-label {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+   margin-right: 25px;
+}
+
+.description {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #1e293b;
+  text-align: center;
+  font-weight: 500;
+}
+
+.limit-container {
+  display: flex;
+  justify-content: center;
+}
+
+.limit-button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.count {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #1e293b;
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 8px;
+  border-radius: 3px;
+  width: 80px;
+  text-align: center;
+}
